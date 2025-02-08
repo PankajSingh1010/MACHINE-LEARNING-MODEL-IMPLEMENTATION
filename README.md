@@ -39,8 +39,7 @@ Step 2: Loading the Dataset
 
 The dataset was loaded from the given file path using Pandas:
 
-file_path = "(Your csv file location)"
-df = pd.read_csv(file_path, encoding='latin-1')
+df = pd.read_csv("Spam.csv.csv", encoding='latin-1')
 
 A preview of the dataset was displayed to check its structure:
 
